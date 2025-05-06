@@ -1,0 +1,21 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+aws:
+  region: us-east-1
+  s3:
+    bucket: your-bucket-name
+  credentials:
+    access-key: your-access-key
+    secret-key: your-secret-key
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+cors:
+  allowed-origins: http://localhost:3000
