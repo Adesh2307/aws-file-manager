@@ -97,7 +97,3 @@ The frontend application will start at http://localhost:3000
 - CORS configured for frontend access
 - Pre-signed URLs for secure file access
 - AWS credentials managed securely
-
-## License
-
-MIT License
